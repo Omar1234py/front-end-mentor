@@ -19,7 +19,7 @@
             --Grey800: hsl(0, 0%, 12%);
             --Grey900: hsl(0, 0%, 8%);
         }
-        
+
         body {
             background-color: var(--Grey900);
             display: flex;
@@ -28,9 +28,11 @@
             color: var(--White);
             font-family: 'Inter', sans-serif;
         }
-        p{
+
+        p {
             font-size: 14px;
         }
+
         @media all and (width >=375px) {
             .card {
                 text-align: center;
@@ -66,6 +68,7 @@
                 color: var(--Grey900);
             }
         }
+
         @media all and (width < 375px) {
             .card {
                 text-align: center;
@@ -99,28 +102,28 @@
                 background-color: var(--Green);
                 color: var(--Grey900);
             }
-            .card a:focus-visible {
-                outline: 2px solid var(--Green);
-                outline-offset: 3px;
-            }
+
+            
         }
     </style>
 </head>
 
 <body>
-    <div class="card">
-        <img src="assets/images/avatar-jessica.jpeg" alt="Portrait of Jessica Randall">
-        <h1 style="font-weight: 700;margin-bottom: -15px;">Jessica Randall</h1>
-        <p style="color: var(--Green);font-weight: 600;">London, United kingdom</p>
-        <p style="font-weight: 400;">"Front-end developer and avid reader"</p>
-        <div class="links">
-            <a href="">GitHub</a>
-            <a href="">Frontend Mentor</a>
-            <a href="">LinkedIn</a>
-            <a href="">Twitter</a>
-            <a href="">Instagram</a>
+    <main>
+        <div class="card">
+            <img src="assets/images/avatar-jessica.jpeg" alt="Portrait of Jessica Randall">
+            <h1 style="font-weight: 700;margin-bottom: -15px;">Jessica Randall</h1>
+            <p style="color: var(--Green);font-weight: 600;">London, United kingdom</p>
+            <p style="font-weight: 400;">"Front-end developer and avid reader"</p>
+            <div class="links">
+                <a href="">GitHub</a>
+                <a href="">Frontend Mentor</a>
+                <a href="">LinkedIn</a>
+                <a href="">Twitter</a>
+                <a href="">Instagram</a>
+            </div>
         </div>
-    </div>
+    </main>
 </body>
 
 </html>
